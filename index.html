@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark" style="background-image: linear-gradient(to right, rgb(106, 104, 247) , rgb(36, 14, 136))">
+        <span class="navbar-brand mb-0 h1 w-100 text-center text-white"><b>Weather Dashboard</b></span>
+    </nav>
+    
+    <div id="content" class="container">
+        <div class="row">
+            <div id="content-left" class="col-md-3">
+                <form>
+                    <label for="search-city"><b>Search for a City:</b></label>
+
+                    <div class="form-row">
+                        <input id="search-city" class="form-control" name="city" value="Atlanta" style="width: 100%;"></input>
+                    </div>
+                    <button id="search-button" class="btn btn-primary" type="submit" style="width: 100% ;">Search</button>
+                </form>
+                <hr style="border-color: #000000; margin-top: 15px;">
+                <div id="search-error"></div>
+                <ul id="city-results" class="list-group mt-4"></ul>
+            </div>
+
+            <div id="content-right" class="col-md-9 pt-4">
+                <div id="current-weather" class="border rounded"></div>
+                <div id="five-day-forecast" class="mt-6 text-left"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    
+</body>
+</html>
