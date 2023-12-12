@@ -1,0 +1,53 @@
+.navbar-brand {
+    font-size: 36px;
+}
+
+#search-city{
+    width:100%;
+}
+
+#current-weather {
+    padding-left: 15px;
+}
+
+.form-row::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px; 
+    margin-top: 10px; 
+}
+
+.weather-card{
+    width: 9rem;
+    background-color: #283946;
+    text-align: left;
+    color: white;
+    font-size: 15px;
+}
+
+#city-results .list-group-item {
+    cursor: pointer;
+    text-align: center;
+    background-color: #DDDDDD;
+    margin-top: 10px;
+}
+
+#city-results .list-group-item.active {
+    color: #FFFFFF; 
+}
+
+@media only screen and (max-width: 992px) {
+    #search-city{
+        width:100%;
+    }
+    #search-button{
+        width:100%;
+    }
+}
+@media only screen and (max-width: 575px) {
+
+    #fiveDayForecastUl{
+        justify-content: center;
+    }
+}
