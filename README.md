@@ -17,7 +17,7 @@ Just try this **"Weather Dashboard"** application, which can sastified all of yo
 ## Screenshot
 This application looked like this
 
-![Mock Up Image](./Assets/Image/demo.png)
+![Mock Up Image](https://github.com/ttngbt06/TN-Weather-Dashboard/blob/main/assets/Image/demo.png)
 
 ## Link
 
