@@ -21,4 +21,4 @@ This application looked like this
 
 ## Link
 
-Exciting in planning a new trip? Let's start with **[Weather Dashboard]()**
+Exciting in planning a new trip? Let's start with **[Weather Dashboard](https://ttngbt06.github.io/TN-Weather-Dashboard/)**
